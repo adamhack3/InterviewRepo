@@ -1,0 +1,25 @@
+<h1>Address List</h1>
+
+<style>
+
+h1 {
+    font-size: medium;
+}
+
+</style>
+
+<input id="addressInput" placeholder="adfa"></input>
+
+<ul>
+{% for address in address_list %}
+    <li>
+    <h1>{{address["line1"]}}</h1>
+    <p>{{address["line2"]}}</p>
+    <p>{{address["line3"]}}</p>
+    <p>{{address["line4"]}}</p>
+    <p>{{address["line5"]}}</p>
+    <p>{{address["town"]}}</p>
+    <p>{{address["postcode"]}}</p>
+    </li>
+{% endfor %}
+</ul>

@@ -2,3 +2,5 @@ __pycache__
 interview_venv
 pyvenv.cfg
 .pytest_cache
+secrets
+*.txt
